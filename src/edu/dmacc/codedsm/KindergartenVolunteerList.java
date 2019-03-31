@@ -37,6 +37,11 @@ public class KindergartenVolunteerList {
                 '}';
     }
 
+    Person PersonObject = new Person("HAINES", "Renea", "Linda");
+    ReadToClass ReadToClassObject = new ReadToClass("The Little Blue Truck", "One", "Tammy", "10 minutes", "Thursday" );
+
+
+
     public List<String> getClassroom() {
         return classroom;
     }

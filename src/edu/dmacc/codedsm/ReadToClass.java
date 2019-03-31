@@ -17,6 +17,14 @@ public class ReadToClass {
 
     }
 
+    public ReadToClass(String bookName, String level, String name, String time, String day) {
+        bookName = bookName;
+        bookLevel = level;
+        whoIsDoingThis = name;
+        timeLimit = time;
+        pickADay = day;
+    }
+
     @Override
     public String toString() {
         return "ReadToClass{" +
