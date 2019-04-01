@@ -4,7 +4,6 @@ public class HolidayParties {
     public String food;
     public String drinks;
     public String games;
-    public String takeHomeBags;
     public String whoIsDoingThis;
 
 
@@ -12,9 +11,14 @@ public class HolidayParties {
         this.food = food;
         this.drinks = drinks;
         this.games = games;
-        this.takeHomeBags = takeHomeBags;
         this.whoIsDoingThis = whoIsDoingThis;
 
+    }
+    public HolidayParties(String food, String drink, String game, String name) {
+        food = food;
+        drinks = drinks;
+        games = games;
+        whoIsDoingThis = name;
     }
 
     @Override
@@ -23,7 +27,6 @@ public class HolidayParties {
                 "food='" + food + '\'' +
                 ", drinks='" + drinks + '\'' +
                 ", games='" + games + '\'' +
-                ", takeHomeBags='" + takeHomeBags + '\'' +
                 ", whoIsDoingThis='" + whoIsDoingThis + '\'' +
                 '}';
     }
@@ -50,14 +53,6 @@ public class HolidayParties {
 
     public void setGames(String games) {
         this.games = games;
-    }
-
-    public String getTakeHomeBags() {
-        return takeHomeBags;
-    }
-
-    public void setTakeHomeBags(String takeHomeBags) {
-        this.takeHomeBags = takeHomeBags;
     }
 
     public String getWhoIsDoingThis() {

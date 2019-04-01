@@ -15,6 +15,15 @@ public class StudentAction {
         this.timeLimit = timeLimit;
         this.pickADay = pickADay;
     }
+    public StudentAction(String one, String two, String name, String time, String day) {
+        one = "Student Reads Aloud";
+        two = "Sight Words";
+        whoIsDoingThis = name;
+        timeLimit = time;
+        pickADay = day;
+
+
+    }
 
     @Override
     public String toString() {

@@ -38,9 +38,9 @@ public class KindergartenVolunteerList {
     }
 
     Person PersonObject = new Person("HAINES", "Renea", "Linda");
-    ReadToClass ReadToClassObject = new ReadToClass("The Little Blue Truck", "One", "Tammy", "10 minutes", "Thursday" );
-
-
+    ReadToClass ReadToClassObject = new ReadToClass("The Little Blue Truck", "One", "Tammy", "10 minutes", "Thursday");
+    StudentAction StudentActionObject = new StudentAction("Student Reads Aloud", "Sight Words", "Lilly", "10 minutes", "Monday");
+    HolidayParties HolidayPartiesObject = new HolidayParties("pizza", "Orange Drink", "Red Rover", "Shelia");
 
     public List<String> getClassroom() {
         return classroom;
