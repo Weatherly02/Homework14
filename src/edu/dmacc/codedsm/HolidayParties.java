@@ -14,6 +14,7 @@ public class HolidayParties {
         this.whoIsDoingThis = whoIsDoingThis;
 
     }
+
     public HolidayParties(String food, String drink, String game, String name) {
         food = food;
         drinks = drinks;

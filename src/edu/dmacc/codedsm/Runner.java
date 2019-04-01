@@ -8,7 +8,7 @@ public class Runner {
 
         Person whoIsWho = new Person("Mrs. Haines", "Renea", "Linda");
         System.out.println(whoIsWho);
-        ReadToClass ReadToClassObject = new ReadToClass("The Sky is Falling", "Two", "Jack", "14 minutes", "Monday" );
+        ReadToClass ReadToClassObject = new ReadToClass("The Sky is Falling", "Two", "Jack", "14 minutes", "Monday");
         System.out.println(ReadToClassObject);
         HolidayParties HolidayPartiesObject = new HolidayParties("pizza", "Orange Drink", "Red Rover", "Shelia");
         System.out.println(HolidayPartiesObject);
@@ -16,8 +16,6 @@ public class Runner {
         System.out.println(StudentActionObject);
 
     }
-
-
 
 
 }

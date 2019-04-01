@@ -13,11 +13,11 @@ public class Person {
 
     }
 
-   public Person(String name, String nameTwo, String nameThree) {
-       teacher = name;
-       student = nameTwo;
-       volunteerName = nameThree;
-   }
+    public Person(String name, String nameTwo, String nameThree) {
+        teacher = name;
+        student = nameTwo;
+        volunteerName = nameThree;
+    }
 
     @Override
     public String toString() {
